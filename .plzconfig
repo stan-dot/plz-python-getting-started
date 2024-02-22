@@ -8,6 +8,9 @@
 ; [please]
 ; version = 17.8.0
 
+[build]
+path = /venv/bin/python:/usr/local/bin:/usr/bin:/bin
+
 [parse]
 preloadsubincludes = ///python//build_defs:python
 
