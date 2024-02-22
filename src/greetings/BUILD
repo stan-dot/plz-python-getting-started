@@ -2,6 +2,7 @@ python_library(
     name="greetings",
     srcs = ["greetings.py"],
     visibility = ["//src/..."],
+    deps = ["//third_party/python:numpy"]
 )
 
 python_test(
